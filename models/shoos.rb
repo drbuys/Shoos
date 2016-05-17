@@ -22,7 +22,7 @@ class Shoo
     end
 
   def save()
-    sql = "INSERT INTO shoos (first_name, last_name, style, size, quantity) VALUES ('#{@first_name}', '#{@last_name}', '#{@style}', #{@size} #{@quantity});"
+    sql = "INSERT INTO shoos (first_name, last_name, style, size, quantity) VALUES ('#{@first_name}', '#{@last_name}', '#{@style}', #{@size}, #{@quantity});"
     return SqlRunner.run(sql)
   end
 
