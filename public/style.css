@@ -8,6 +8,7 @@ body p{
   font-family: fantasy;
   /*background-color: #292a2a;*/
   text-decoration: underline;
+
 }
 h1 {
   color: 		#df514c;
@@ -21,6 +22,7 @@ h1 {
   border: 20px dotted #008bba;
   padding: 10px;
   border-radius: 8px
+
 }
 
 b {
@@ -49,7 +51,7 @@ nav ul li {
   border-style: double;
   border-radius: 20px;
   border-color: 	#008bba;
-  border-width: thick;;
+  border-width: thick;
   padding: 10px;
   margin: 30px;
   /*text-decoration: none;
@@ -66,6 +68,7 @@ nav ul li {
 
 input {
   float: right;
+
 }
 
 .index {
@@ -75,11 +78,6 @@ input {
   width: 40%;
   border-radius: 20px;
 
-
-}
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 
