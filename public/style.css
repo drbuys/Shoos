@@ -59,29 +59,31 @@ nav ul li {
 }
 
 .new form {
-    color: 	#dc403b;
+  color: 	#dc403b;
   font-size: 1.5em;
   font-family: cursive;
   display: inline-block;
-
 }
 
 input {
   float: right;
-
 }
 
 .index {
-
   background-color: #292a2a;
   display: inline-block;
   width: 40%;
   border-radius: 20px;
-
 }
 
+#footer {
+	height: 20px;
+  text-align: center;
+	background-color: #69D2E7;
+	margin-top: 40px;
+  clear:both;
+}
 
 div p:hover {
   color: #f1554d;
-
 }
