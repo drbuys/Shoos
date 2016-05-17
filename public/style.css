@@ -6,13 +6,21 @@ body p{
   color: 	#008bba;
   font-size: 2em;
   font-family: fantasy;
-  background-color: #292a2a;
+  /*background-color: #292a2a;*/
+  text-decoration: underline;
 }
 h1 {
   color: 		#df514c;
   font-family: cursive;
   font-size:5em;
   background-color:		#85c4b9;
+  text-decoration: underline;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 20px dotted #008bba;
+  padding: 10px;
+  border-radius: 8px
 }
 
 b {
@@ -22,10 +30,10 @@ b {
 }
 
 li a {
-  margin: 30px;
+  /*margin: 30px;
   border-style: double;
   border-radius: 20%;
-  border-color: 	#008bba;
+  border-color: 	#008bba;*/
   text-decoration: none;
   color: #85c4b9;
 }
@@ -38,14 +46,37 @@ nav ul li {
   display: inline;
   font-size:2em;
   text-align: center;
+  border-style: double;
+  border-radius: 20px;
+  border-color: 	#008bba;
+  border-width: thick;;
+  padding: 10px;
+  margin: 30px;
+  /*text-decoration: none;
+  color: #85c4b9;*/
 }
 
-.new {
-  font-size: 2em;
+.new form {
+    color: 	#dc403b;
+  font-size: 1.5em;
   font-family: cursive;
+  display: inline-block;
 
 }
 
+input {
+  float: right;
+}
+
+.index {
+
+  background-color: #292a2a;
+  display: inline-block;
+  width: 40%;
+  border-radius: 20px;
+
+
+}
 img {
     max-width: 100%;
     height: auto;

@@ -1,14 +1,16 @@
 <h1>All Current Shoos Orders are Displayed Below</h1>
 
+
+
 <p>
   <% @shoos.each do |shoo| %>
-
+<div class="index">
   <b>Name:</b>
   <p><%= shoo.pretty_name()%></p>
 
   <b>Order:</b>
   <p><%= shoo.quantity()%> x <%= shoo.style()%></p>
   <hr>
-
+</div>
   <% end %>
 </p>
