@@ -82,6 +82,7 @@ input {
 	background-color: #69D2E7;
 	margin-top: 40px;
   clear:both;
+  opacity: 0.6;
 }
 
 div p:hover {
